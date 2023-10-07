@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>閲覧ジャンプページ</title>
+        <style>
+            h1,p{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>閲覧ジャンプページ</h1>
+        <p>下記選択項目から見たいページを選択すると該当のページに飛びます。</p>
+        <center>
+            <form action="">
+                <select onchange="location.href=this.options[this.selectedIndex].value" style="color:black;font-size:24px;font-weight:bold;background:white;border:solid 1px #0d0066">
+                    <option value="">選択してください。</option>
+                    <option value="./About IT passport examination/index.html">ITパスポートについて</option>
+                    <option value="#">dummy</option>
+                </select>
+            </form><br>
+        </center>
+    </body>
+</html>
